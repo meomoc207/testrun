@@ -133,5 +133,3 @@ domain_counts = FOREACH grouped_by_domain GENERATE
 -- Store the result into HDFS directory 'A2_2025_Q8'
 STORE domain_counts INTO 'A2_2025_Q8' USING PigStorage(',');
 DUMP domain_counts;
-
--- aaaaaaaa
